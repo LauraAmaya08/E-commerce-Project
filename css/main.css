@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+    --principal-color: #05080D;
+    --secondary-color: #112E40;
+    --icon-color: #42778C;
+    --details-color: #42778C
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Radio+Canada", "Helvetica Neue", Helvetica, Arial,
+}
+
+h1,h2,h3,h4,h5,h6,p,a,input{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#containerPrin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+
+}
